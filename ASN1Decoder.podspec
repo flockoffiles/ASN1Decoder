@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ASN1Decoder"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "ASN1 DER Decoder for X.509 certificate"
   s.description  = "ASN1 DER Decoder to parse X.509 certificate"
   s.homepage     = "https://github.com/filom/ASN1Decoder"
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files  = "ASN1Decoder/*.swift"
   s.frameworks    = "Foundation"
   s.pod_target_xcconfig =  {
-        'SWIFT_VERSION' => '4.0',
+        'SWIFT_VERSION' => '5.0',
   }
 end
