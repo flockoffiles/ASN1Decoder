@@ -49,7 +49,7 @@
 		414F5E2C1F55EFB700449E72 /* ASN1Decoder.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ASN1Decoder.podspec; sourceTree = "<group>"; };
 		41B11CD0202E16060009670B /* PKCS7_AppleReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCS7_AppleReceipt.swift; sourceTree = "<group>"; };
 		41D14FE21F58C1590058DE7A /* PKCS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCS7.swift; sourceTree = "<group>"; };
-		57BD9EA522B3D3A1000BE530 /* ASN1Decoder.static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASN1Decoder.static.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BD9EA522B3D3A1000BE530 /* ASN1Decoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASN1Decoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			children = (
 				412A9E381F55C6500099110C /* ASN1Decoder.framework */,
 				412A9E411F55C6500099110C /* ASN1DecoderTests.xctest */,
-				57BD9EA522B3D3A1000BE530 /* ASN1Decoder.static.framework */,
+				57BD9EA522B3D3A1000BE530 /* ASN1Decoder.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			);
 			name = ASN1Decoder.static;
 			productName = ASN1Decoder;
-			productReference = 57BD9EA522B3D3A1000BE530 /* ASN1Decoder.static.framework */;
+			productReference = 57BD9EA522B3D3A1000BE530 /* ASN1Decoder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -520,7 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = net.filippomaguolo.ASN1Decoder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASN1Decoder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -545,7 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = net.filippomaguolo.ASN1Decoder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASN1Decoder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
