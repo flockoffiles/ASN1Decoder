@@ -637,6 +637,7 @@
 				INFOPLIST_FILE = ASN1Decoder/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.filippomaguolo.ASN1Decoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,6 +664,7 @@
 				INFOPLIST_FILE = ASN1Decoder/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.filippomaguolo.ASN1Decoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
